@@ -1,0 +1,6 @@
+# Nicht mit hochladen: interne Notizen und Repo-Dateien
+CLAUDE.md
+README.md
+.git
+.gitignore
+.vercelignore

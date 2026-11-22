@@ -50,3 +50,6 @@ html[lang="de"] .demo-banner [lang]:not([lang="de"]),
 html[lang="uk"] .demo-banner [lang]:not([lang="uk"]),
 html[lang="pl"] .demo-banner [lang]:not([lang="pl"]){display:none}
 .demo-box{background:#f6e7b8;color:#16181d;border-radius:12px;padding:14px 18px;font-weight:500}
+.resp{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:14px 18px;margin:20px 0}
+.resp h2{margin:0 0 6px;font-size:22px}
+.resp p{margin:0}

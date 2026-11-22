@@ -157,6 +157,7 @@ section{padding:64px 0;border-top:1px solid var(--line)}
 .svc-foot .note{margin:0}
 @media (max-width:640px){.svc-foot{flex-direction:column;align-items:stretch;gap:14px}.svc-foot .cta{justify-content:center;min-height:46px;padding:0 20px}}
 .note{color:var(--muted);font-size:14px;margin-top:12px}
+.fict{display:block;margin-top:4px;color:var(--muted);font-size:14px}
 
 .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:28px}
 .gallery figure{margin:0;position:relative;border-radius:12px;overflow:hidden;aspect-ratio:3/4;max-width:470px;background:var(--line)}
@@ -418,7 +419,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
       <h2 data-i18n="ct-h">So finden Sie mich</h2>
     </div>
     <dl>
-      <dt data-i18n="ct-where">Wo</dt><dd>Haaratelier&nbsp;Muster<br>Musterstraße&nbsp;1<br>60000&nbsp;Frankfurt</dd>
+      <dt data-i18n="ct-where">Wo</dt><dd>Haaratelier&nbsp;Muster<br>Musterstraße&nbsp;1<br>60000&nbsp;Frankfurt<br><small class="fict" data-i18n="ct-fict">Name und Adresse sind frei&nbsp;erfunden</small></dd>
       <!-- Ausgeblendet: Arbeitszeiten (Übersetzungen ct-when / ct-hours sind im dict):
       <dt data-i18n="ct-when">Wann</dt><dd data-i18n="ct-hours">[Arbeitstage und Zeiten]</dd>
       -->
@@ -470,7 +471,7 @@ const dict = {
     "b1-s1":"Оберіть послугу", "b1-s2":"Оберіть вільний час", "b1-s3":"Отримайте підтвердження",
     "b2-h":"Хочете написати?", "b2-p":"На питання про колір, тривалість чи ціну я охоче відповім у\u00A0WhatsApp або\u00A0e-mail.", "b2-n":"Ваше повідомлення я використовую тільки для відповіді й\u00A0узгодження\u00A0запису.", mail:"E-mail",
     "ct-e":"Контакти", "ct-h":"Де мене знайти", "ct-where":"Де", "ct-when":"Коли", "ct-book":"Запис", "ct-online":"Демо\u00A0— без справжнього запису", "ct-hours":"[Робочі дні й\u00A0години]",
-    privacy:"Захист даних", imprint:"Impressum (вихідні дані)",
+    "ct-fict":"Назва й\u00A0адреса вигадані", privacy:"Захист даних", imprint:"Impressum (вихідні дані)",
     alt1:"Довге волосся з\u00A0попелястим омбре, вигляд ззаду", alt2:"Довгі світлі хвилі, вигляд ззаду", alt3:"Довге волосся з\u00A0меліруванням і\u00A0м'якими хвилями", alt4:"Довгі золотисті хвилі, вигляд ззаду", alt5:"Дві жінки з\u00A0хвилястим блондом і\u00A0балаяжем, вигляд ззаду", alt6:"Довгий прямий холодний блонд, вигляд ззаду"
   },
   pl: {
@@ -504,7 +505,7 @@ const dict = {
     "b1-s1":"Wybierz usługę", "b1-s2":"Wybierz wolny termin", "b1-s3":"Otrzymaj potwierdzenie",
     "b2-h":"Wolisz napisać?", "b2-p":"Na pytania o\u00A0kolor, czas trwania lub cenę chętnie odpowiem przez WhatsApp lub\u00A0e-mail.", "b2-n":"Twoją wiadomość wykorzystuję tylko do odpowiedzi i\u00A0ustalenia\u00A0terminu.", mail:"E-mail",
     "ct-e":"Kontakt", "ct-h":"Gdzie mnie znaleźć", "ct-where":"Gdzie", "ct-when":"Kiedy", "ct-book":"Wizyta", "ct-online":"Demo\u00A0— bez prawdziwej rezerwacji", "ct-hours":"[Dni i\u00A0godziny pracy]",
-    privacy:"Ochrona danych", imprint:"Impressum (nota prawna)",
+    "ct-fict":"Nazwa i\u00A0adres są zmyślone", privacy:"Ochrona danych", imprint:"Impressum (nota prawna)",
     alt1:"Długie włosy z\u00A0popielatym ombre, widok od tyłu", alt2:"Długie, jasne fale blond, widok od tyłu", alt3:"Długie włosy z\u00A0pasemkami i\u00A0miękkimi falami", alt4:"Długie złote fale, widok od tyłu", alt5:"Dwie kobiety z\u00A0falowanym blondem i\u00A0balayage'em, widok od tyłu", alt6:"Długi, prosty, chłodny blond, widok od tyłu"
   }
 };
