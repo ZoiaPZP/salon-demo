@@ -20,11 +20,11 @@ Alle Fotos stammen von [Unsplash](https://unsplash.com) ([Unsplash-Lizenz](https
 | `img/w6.jpg` | [Lockerer Dutt, von hinten](https://unsplash.com/photos/oiN9O3mlfV4) | [Kasia Derenda](https://unsplash.com/@kasiade) |
 | `img/w7.jpg` | [Braunes Haar mit weichen Wellen](https://unsplash.com/photos/P3RwgHQ7sr8) | [Blaire Harmon](https://unsplash.com/@bharmon) |
 | `img/og.jpg` | [Salon-Interieur](https://unsplash.com/photos/LGXN4OSQSa4) | [Benyamin Bohlouli](https://unsplash.com/@benyamin_bohlouli) |
-| `img/ba-before.jpg` | [Brauner Bob, von hinten](https://www.pexels.com/photo/person-holding-hair-in-hands-16317568/) (Pexels) | [Astra Zilberte-Linde](https://www.pexels.com/@astra-zilberte-linde-520106823/) |
-| `img/ba-after.jpg` | [Ombré-Balayage mit Wellen, von hinten](https://www.pexels.com/photo/a-back-view-of-a-woman-in-denim-jacket-with-a-curly-hair-6391646/) (Pexels) | [Lyn Michelle](https://www.pexels.com/@lynbot/) |
+| `img/ba-before.jpg` | [Langes Blond mit dunklem Ansatz, von hinten](https://www.pexels.com/photo/woman-with-blonde-hair-looking-at-the-sea-9345462/) (Pexels) | [Ejov Igor](https://www.pexels.com/@igorejov/) |
+| `img/ba-after.jpg` | [Langes Haar mit Balayage und Wellen, von hinten](https://www.pexels.com/photo/long-wavy-blonde-hair-against-neutral-background-34606770/) (Pexels) | [Fernanda Neitzel](https://www.pexels.com/@fernanda-neitzel-2155821056/) |
 
 Formate: Galerie 940×1360 (3:4-Kacheln, 2× für Retina), Vergleichs-Slider 900×1125, `og.jpg` 1200×630.
 
-**Vorher/Nachher-Slider:** Auf Unsplash/Pexels wurden keine echten Vorher/Nachher-Paare gefunden (gleiches Modell, gleicher Blickwinkel). Der Slider zeigt deshalb zwei **verschiedene** Personen aus zwei verschiedenen Stockfotos, ausgewählt nach ähnlichem Blickwinkel, Licht und hellem Hintergrund und so zugeschnitten, dass der Kopf an derselben Stelle liegt; auf der Seite steht direkt daneben (mobil darüber) in allen drei Sprachen „Demo-Slider mit Beispielbildern — kein echtes Vorher/Nachher“. Kein Foto ist abgedunkelt oder anderweitig verändert.
+**Vorher/Nachher-Slider:** Auf Unsplash/Pexels wurden keine echten Vorher/Nachher-Paare gefunden (gleiches Modell, gleicher Blickwinkel). Der Slider zeigt deshalb zwei **verschiedene** Personen aus zwei verschiedenen Stockfotos, beide mit langem Haar von hinten, so zugeschnitten, dass der Kopf ungefähr an derselben Stelle liegt; auf der Seite steht direkt daneben (mobil darüber) in allen drei Sprachen „Demo-Slider mit Beispielbildern — kein echtes Vorher/Nachher“. Kein Foto ist abgedunkelt oder anderweitig verändert.
 
 In der Galerie nur fertige Ergebnisse (keine Arbeitsschritte wie Folie, Clips, Föhnen). Keine Bearbeitung außer Zuschnitt und Verkleinerung.
