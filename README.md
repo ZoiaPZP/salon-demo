@@ -8,23 +8,23 @@ Schriften lokal (Bodoni Moda, Manrope — SIL Open Font License, siehe `fonts/OF
 
 ## Fotos
 
-Alle Fotos stammen von [Unsplash](https://unsplash.com) und stehen unter der [Unsplash-Lizenz](https://unsplash.com/license) (kostenlos, auch kommerziell, Namensnennung nicht erforderlich — hier trotzdem aufgeführt). Keine erkennbaren Gesichter. Lokal gespeichert, zugeschnitten und verkleinert; nicht verlinkt (kein Hotlinking).
+Alle Fotos stammen von [Unsplash](https://unsplash.com) ([Unsplash-Lizenz](https://unsplash.com/license)) oder [Pexels](https://www.pexels.com) ([Pexels-Lizenz](https://www.pexels.com/license/)) — beide kostenlos, auch kommerziell, Namensnennung nicht erforderlich, hier trotzdem aufgeführt. Keine erkennbaren Gesichter. Lokal gespeichert, zugeschnitten und verkleinert; nicht verlinkt (kein Hotlinking).
 
 | Datei | Foto | Fotograf/in |
 |---|---|---|
 | `img/w1.jpg` | [Blondes Ombré von hinten](https://unsplash.com/photos/CIrRI0ujiRo) | [Lera Kogan](https://unsplash.com/@newyork_creator) |
-| `img/w2.jpg` (auch Hero) | [Lange, wellige Blondsträhnen im Gegenlicht](https://unsplash.com/photos/ArQIWcmOlA8) | [Tim Mossholder](https://unsplash.com/@timmossholder) |
+| `img/w2.jpg` (auch Hero) | [Hellblonde Wellen im Salon](https://www.pexels.com/photo/blonde-wavy-hair-in-dubai-salon-setting-41062003/) (Pexels) | [Casa Rio Beauty Salon](https://www.pexels.com/@casa-rio-beauty-salon-2162626170/) |
 | `img/w3.jpg` | [Lange Strähnen von hinten](https://unsplash.com/photos/W6cwaL7PMSw) | [Jessie Dee Dabrowski](https://unsplash.com/@jessiedeexx) |
 | `img/w4.jpg` | [Lange blonde Wellen von hinten](https://unsplash.com/photos/_0acJIzFw-0) | [Yovanka Loria Salon](https://unsplash.com/@yovankaloriasalon) |
 | `img/w5.jpg` | [Zwei Frauen mit Blond und Balayage, von hinten](https://unsplash.com/photos/RpFQdgJ9gQw) | [Yovanka Loria Salon](https://unsplash.com/@yovankaloriasalon) |
-| `img/w6.jpg` | [Hochsteckfrisur, von hinten](https://unsplash.com/photos/KSjT0ktwMiU) | [Ryleigh Henschen](https://unsplash.com/@ryleighhenschen) |
+| `img/w6.jpg` | [Lockerer Dutt, von hinten](https://unsplash.com/photos/oiN9O3mlfV4) | [Kasia Derenda](https://unsplash.com/@kasiade) |
 | `img/w7.jpg` | [Braunes Haar mit weichen Wellen](https://unsplash.com/photos/P3RwgHQ7sr8) | [Blaire Harmon](https://unsplash.com/@bharmon) |
 | `img/og.jpg` | [Salon-Interieur](https://unsplash.com/photos/LGXN4OSQSa4) | [Benyamin Bohlouli](https://unsplash.com/@benyamin_bohlouli) |
-| `img/ba-before.jpg` | [Glattes, dunkelbraunes Haar, von hinten](https://unsplash.com/photos/u_UoMaxX7RE) | [Anastasiya Badun](https://unsplash.com/@badun) |
-| `img/ba-after.jpg` | [Schulterlanges Haar mit Balayage, von hinten](https://unsplash.com/photos/z50YODyJU4c) | [Crystal Clark](https://unsplash.com/@crystalclark252) |
+| `img/ba-before.jpg` | [Brauner Bob, von hinten](https://www.pexels.com/photo/person-holding-hair-in-hands-16317568/) (Pexels) | [Astra Zilberte-Linde](https://www.pexels.com/@astra-zilberte-linde-520106823/) |
+| `img/ba-after.jpg` | [Ombré-Balayage mit Wellen, von hinten](https://www.pexels.com/photo/a-back-view-of-a-woman-in-denim-jacket-with-a-curly-hair-6391646/) (Pexels) | [Lyn Michelle](https://www.pexels.com/@lynbot/) |
 
 Formate: Galerie 940×1360 (3:4-Kacheln, 2× für Retina), Vergleichs-Slider 900×1125, `og.jpg` 1200×630.
 
-**Vorher/Nachher-Slider:** Auf Unsplash/Pexels wurden keine echten Vorher/Nachher-Paare gefunden (gleiches Modell, gleicher Blickwinkel). Der Slider zeigt deshalb zwei **verschiedene** Personen aus zwei verschiedenen Stockfotos; auf der Seite steht darunter in allen drei Sprachen „Demo-Slider mit Beispielbildern — kein echtes Vorher/Nachher“. Kein Foto ist abgedunkelt oder anderweitig verändert.
+**Vorher/Nachher-Slider:** Auf Unsplash/Pexels wurden keine echten Vorher/Nachher-Paare gefunden (gleiches Modell, gleicher Blickwinkel). Der Slider zeigt deshalb zwei **verschiedene** Personen aus zwei verschiedenen Stockfotos, ausgewählt nach ähnlichem Blickwinkel, Licht und hellem Hintergrund und so zugeschnitten, dass der Kopf an derselben Stelle liegt; auf der Seite steht direkt daneben (mobil darüber) in allen drei Sprachen „Demo-Slider mit Beispielbildern — kein echtes Vorher/Nachher“. Kein Foto ist abgedunkelt oder anderweitig verändert.
 
 In der Galerie nur fertige Ergebnisse (keine Arbeitsschritte wie Folie, Clips, Föhnen). Keine Bearbeitung außer Zuschnitt und Verkleinerung.
