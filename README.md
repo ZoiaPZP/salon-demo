@@ -18,7 +18,6 @@ Alle Fotos stammen von [Unsplash](https://unsplash.com) ([Unsplash-Lizenz](https
 | `img/w4.jpg` | [Lange blonde Wellen von hinten](https://unsplash.com/photos/_0acJIzFw-0) | [Yovanka Loria Salon](https://unsplash.com/@yovankaloriasalon) |
 | `img/w5.jpg` | [Zwei Frauen mit Blond und Balayage, von hinten](https://unsplash.com/photos/RpFQdgJ9gQw) | [Yovanka Loria Salon](https://unsplash.com/@yovankaloriasalon) |
 | `img/w6.jpg` | [Langes, kühles Blond, von hinten](https://www.pexels.com/photo/back-view-of-woman-in-white-jacket-8693635/) (Pexels) | [Hanna Auramenka](https://www.pexels.com/@hannaauramenka/) |
-| `img/w7.jpg` | [Braunes Haar mit weichen Wellen](https://unsplash.com/photos/P3RwgHQ7sr8) | [Blaire Harmon](https://unsplash.com/@bharmon) |
 | `img/og.jpg` | [Salon-Interieur](https://unsplash.com/photos/LGXN4OSQSa4) | [Benyamin Bohlouli](https://unsplash.com/@benyamin_bohlouli) |
 | `img/ba-before.jpg` | [Langes Blond mit dunklem Ansatz, von hinten](https://www.pexels.com/photo/woman-with-blonde-hair-looking-at-the-sea-9345462/) (Pexels) | [Ejov Igor](https://www.pexels.com/@igorejov/) |
 | `img/ba-after.jpg` | [Langes Haar mit Balayage und Wellen, von hinten](https://www.pexels.com/photo/long-wavy-blonde-hair-against-neutral-background-34606770/) (Pexels) | [Fernanda Neitzel](https://www.pexels.com/@fernanda-neitzel-2155821056/) |

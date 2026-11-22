@@ -136,7 +136,6 @@ section{padding:64px 0;border-top:1px solid var(--line)}
 .quote{padding:40px 0}
 .quote footer{border:0;padding:0;margin-top:14px;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700}
 /* Desktop: 6 gleich große Kacheln (3×1fr, 3:4, max. 470px breit = Originalbreite); mobil: 1 groß + 6 klein */
-@media (max-width:640px){.gallery figure:first-child{grid-column:span 2;aspect-ratio:47/68}}
 .more{display:inline-block;margin-top:18px;font-weight:700}
 .guide ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
 @media (max-width:640px){.guide ol{grid-template-columns:1fr}}
@@ -165,7 +164,6 @@ section{padding:64px 0;border-top:1px solid var(--line)}
 .gallery img{width:100%;height:100%;object-fit:cover}
 .gallery figcaption{position:absolute;left:10px;bottom:10px;background:rgba(17,19,23,.6);color:#fff;font-size:13px;font-weight:700;padding:4px 10px;border-radius:999px}
 @media (max-width:640px){.gallery{grid-template-columns:repeat(2,1fr)}.gallery figcaption{font-size:12px;line-height:1.3;padding:3px 8px;left:8px;bottom:8px;right:auto;max-width:calc(100% - 16px)}}
-@media (min-width:641px){.gallery .m-only{display:none}}
 
 /* Vorher/Nachher-Demo: zwei VERSCHIEDENE Stockfotos (keine echte Vorher/Nachher-Aufnahme), unbearbeitet; Hinweis darunter in allen Sprachen */
 .ba-grid{display:grid;grid-template-columns:minmax(0,560px) minmax(0,1fr);gap:24px 56px;align-items:center}
@@ -344,7 +342,6 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
       <figure><img src="img/w5.jpg" loading="lazy" alt="Zwei Frauen mit welligem Blond und Balayage, von hinten" data-i18n-alt="alt5"><figcaption data-i18n="g5">Blond &amp; Balayage</figcaption></figure>
       <figure><img src="img/w6.jpg" loading="lazy" alt="Langes, glattes, kühles Blond, von hinten" data-i18n-alt="alt6"><figcaption data-i18n="g6">Langes Kühlblond</figcaption></figure>
       <figure><img src="img/w2.jpg" loading="lazy" alt="Lange, hellblonde Wellen, von hinten" data-i18n-alt="alt2"><figcaption data-i18n="g2">Blonde Wellen</figcaption></figure>
-      <figure class="m-only"><img src="img/w7.jpg" loading="lazy" alt="Dunkelbraunes Haar mit weichen Wellen in Bewegung" data-i18n-alt="alt7"><figcaption data-i18n="g7">Weiche Wellen</figcaption></figure>
     </div>
   </div>
 </section>
@@ -461,7 +458,7 @@ const dict = {
     s1:"Мелірування, тонування, стрижка й\u00A0укладка", s1d:"бл.\u00A05\u00A0год", s2:"AirTouch і\u00A0укладка", s2d:"бл.\u00A04\u00A0год", s3:"Освітлення коренів, тонування й\u00A0укладка", s3d:"бл.\u00A03\u00A0год", s4:"Фарбування коренів", s4d:"бл.\u00A02\u00A0год", s5:"Жіноча: миття, стрижка й\u00A0укладка", s5d:"бл.\u00A01\u00A0год", s6:"Чоловіча: миття, стрижка й\u00A0стайлінг", s6d:"бл.\u00A030\u00A0хв", s7:"Доглядова процедура", s7d:"бл.\u00A020\u00A0хв", s8:"Консультація", s8d:"бл.\u00A030\u00A0хв", from:"від", free:"безкоштовно", "book-all":"Записатися", grp1:"Блонд і\u00A0колір", grp2:"Стрижка", grp3:"Догляд і\u00A0консультація",
     "price-note":"Орієнтовні ціни. Остаточна ціна залежить від довжини й\u00A0густоти\u00A0волосся.",
     "gal-e":"Роботи", "gal-h":"Холодний блонд, здорове волосся",
-    g1:"Попелясте омбре", g2:"Світлі хвилі", g3:"Мелірування", g4:"Золоті хвилі", g5:"Блонд і\u00A0балаяж", g6:"Довгий холодний блонд", g7:"М'які хвилі",
+    g1:"Попелясте омбре", g2:"Світлі хвилі", g3:"Мелірування", g4:"Золоті хвилі", g5:"Блонд і\u00A0балаяж", g6:"Довгий холодний блонд",
     
     "ba-e":"До / після", "ba-h":"Від відрослого коріння до\u00A0балаяжу", "ba-before":"До", "ba-after":"Після", "ba-p":"Пересуньте повзунок: ліворуч відрослий блонд із\u00A0темним корінням, праворуч м'який\u00A0балаяж.", "ba-range":"Пересунути порівняння",
     "ba-note":"Демо-слайдер з\u00A0прикладами фото\u00A0— це не справжнє «до/після»",
@@ -472,7 +469,7 @@ const dict = {
     "b2-h":"Хочете написати?", "b2-p":"На питання про колір, тривалість чи ціну я охоче відповім у\u00A0WhatsApp або\u00A0e-mail.", "b2-n":"Ваше повідомлення я використовую тільки для відповіді й\u00A0узгодження\u00A0запису.", mail:"E-mail",
     "ct-e":"Контакти", "ct-h":"Де мене знайти", "ct-where":"Де", "ct-when":"Коли", "ct-book":"Запис", "ct-online":"Демо\u00A0— без справжнього запису", "ct-hours":"[Робочі дні й\u00A0години]",
     privacy:"Захист даних", imprint:"Impressum (вихідні дані)",
-    alt1:"Довге волосся з\u00A0попелястим омбре, вигляд ззаду", alt7:"Темно-каштанове волосся з\u00A0м'якими хвилями в\u00A0русі", alt2:"Довгі світлі хвилі, вигляд ззаду", alt3:"Довге волосся з\u00A0меліруванням і\u00A0м'якими хвилями", alt4:"Довгі золотисті хвилі, вигляд ззаду", alt5:"Дві жінки з\u00A0хвилястим блондом і\u00A0балаяжем, вигляд ззаду", alt6:"Довгий прямий холодний блонд, вигляд ззаду"
+    alt1:"Довге волосся з\u00A0попелястим омбре, вигляд ззаду", alt2:"Довгі світлі хвилі, вигляд ззаду", alt3:"Довге волосся з\u00A0меліруванням і\u00A0м'якими хвилями", alt4:"Довгі золотисті хвилі, вигляд ззаду", alt5:"Дві жінки з\u00A0хвилястим блондом і\u00A0балаяжем, вигляд ззаду", alt6:"Довгий прямий холодний блонд, вигляд ззаду"
   },
   pl: {
     q:"Dobry kolor zaczyna się od słuchania: najpierw zrozumieć, czego chcesz, a\u00A0potem krok po kroku do tego\u00A0dojść.",
@@ -495,7 +492,7 @@ const dict = {
     s1:"Pasemka, tonowanie, strzyżenie i\u00A0modelowanie", s1d:"ok.\u00A05\u00A0godz.", s2:"AirTouch i\u00A0modelowanie", s2d:"ok.\u00A04\u00A0godz.", s3:"Rozjaśnianie odrostu, tonowanie i\u00A0modelowanie", s3d:"ok.\u00A03\u00A0godz.", s4:"Farbowanie odrostu", s4d:"ok.\u00A02\u00A0godz.", s5:"Damskie: mycie, strzyżenie i\u00A0modelowanie", s5d:"ok.\u00A01\u00A0godz.", s6:"Męskie: mycie, strzyżenie i\u00A0stylizacja", s6d:"ok.\u00A030\u00A0min", s7:"Zabieg pielęgnacyjny", s7d:"ok.\u00A020\u00A0min", s8:"Konsultacja", s8d:"ok.\u00A030\u00A0min", from:"od", free:"bezpłatnie", "book-all":"Umów wizytę", grp1:"Blond i\u00A0koloryzacja", grp2:"Strzyżenie", grp3:"Pielęgnacja i\u00A0konsultacja",
     "price-note":"Ceny orientacyjne. Cena końcowa zależy od długości i\u00A0gęstości\u00A0włosów.",
     "gal-e":"Prace", "gal-h":"Chłodny blond, zdrowe włosy",
-    g1:"Popielate ombre", g2:"Jasne fale", g3:"Pasemka", g4:"Złote fale", g5:"Blond i\u00A0balayage", g6:"Długi chłodny blond", g7:"Miękkie fale",
+    g1:"Popielate ombre", g2:"Jasne fale", g3:"Pasemka", g4:"Złote fale", g5:"Blond i\u00A0balayage", g6:"Długi chłodny blond",
     
     "ba-e":"Przed / po", "ba-h":"Od odrostów do\u00A0balayage\u2019u", "ba-before":"Przed", "ba-after":"Po", "ba-p":"Przesuń suwak: po lewej odrośnięty blond z\u00A0ciemnymi odrostami, po prawej miękki\u00A0balayage.", "ba-range":"Przesuń porównanie",
     "ba-note":"Demo-slider z\u00A0przykładowymi zdjęciami\u00A0— to nie jest prawdziwe „przed/po”",
@@ -506,7 +503,7 @@ const dict = {
     "b2-h":"Wolisz napisać?", "b2-p":"Na pytania o\u00A0kolor, czas trwania lub cenę chętnie odpowiem przez WhatsApp lub\u00A0e-mail.", "b2-n":"Twoją wiadomość wykorzystuję tylko do odpowiedzi i\u00A0ustalenia\u00A0terminu.", mail:"E-mail",
     "ct-e":"Kontakt", "ct-h":"Gdzie mnie znaleźć", "ct-where":"Gdzie", "ct-when":"Kiedy", "ct-book":"Wizyta", "ct-online":"Demo\u00A0— bez prawdziwej rezerwacji", "ct-hours":"[Dni i\u00A0godziny pracy]",
     privacy:"Ochrona danych", imprint:"Impressum (nota prawna)",
-    alt1:"Długie włosy z\u00A0popielatym ombre, widok od tyłu", alt7:"Ciemnobrązowe włosy z\u00A0miękkimi falami w\u00A0ruchu", alt2:"Długie, jasne fale blond, widok od tyłu", alt3:"Długie włosy z\u00A0pasemkami i\u00A0miękkimi falami", alt4:"Długie złote fale, widok od tyłu", alt5:"Dwie kobiety z\u00A0falowanym blondem i\u00A0balayage'em, widok od tyłu", alt6:"Długi, prosty, chłodny blond, widok od tyłu"
+    alt1:"Długie włosy z\u00A0popielatym ombre, widok od tyłu", alt2:"Długie, jasne fale blond, widok od tyłu", alt3:"Długie włosy z\u00A0pasemkami i\u00A0miękkimi falami", alt4:"Długie złote fale, widok od tyłu", alt5:"Dwie kobiety z\u00A0falowanym blondem i\u00A0balayage'em, widok od tyłu", alt6:"Długi, prosty, chłodny blond, widok od tyłu"
   }
 };
 const de = {}, deAlt = {}, deAria = {};
