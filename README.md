@@ -13,12 +13,18 @@ Alle Fotos stammen von [Unsplash](https://unsplash.com) und stehen unter der [Un
 | Datei | Foto | Fotograf/in |
 |---|---|---|
 | `img/w1.jpg` | [Blondes Ombré von hinten](https://unsplash.com/photos/CIrRI0ujiRo) | [Lera Kogan](https://unsplash.com/@newyork_creator) |
-| `img/w2.jpg` (auch Hero) | [Hell-blondes Haar von hinten](https://unsplash.com/photos/ORCPTrkkezw) | [Alexander Grey](https://unsplash.com/@sharonmccutcheon) |
+| `img/w2.jpg` (auch Hero) | [Lange, wellige Blondsträhnen im Gegenlicht](https://unsplash.com/photos/ArQIWcmOlA8) | [Tim Mossholder](https://unsplash.com/@timmossholder) |
 | `img/w3.jpg` | [Lange Strähnen von hinten](https://unsplash.com/photos/W6cwaL7PMSw) | [Jessie Dee Dabrowski](https://unsplash.com/@jessiedeexx) |
 | `img/w4.jpg` | [Lange blonde Wellen von hinten](https://unsplash.com/photos/_0acJIzFw-0) | [Yovanka Loria Salon](https://unsplash.com/@yovankaloriasalon) |
-| `img/w5.jpg` | [Langes, glattes Blond im Salon](https://unsplash.com/photos/ofa5X21-Z2c) | [Yovanka Loria Salon](https://unsplash.com/@yovankaloriasalon) |
-| `img/w6.jpg` | [Strähnen in Folie](https://unsplash.com/photos/B1B-53ZBgng) | [Lera Kogan](https://unsplash.com/@newyork_creator) |
-| `img/w7.jpg` | [Föhnen mit Rundbürste](https://unsplash.com/photos/MmDO1-ezCE4) | [Jenna Oslin](https://unsplash.com/@jennaoslin) |
+| `img/w5.jpg` | [Zwei Frauen mit Blond und Balayage, von hinten](https://unsplash.com/photos/RpFQdgJ9gQw) | [Yovanka Loria Salon](https://unsplash.com/@yovankaloriasalon) |
+| `img/w6.jpg` | [Hochsteckfrisur, von hinten](https://unsplash.com/photos/KSjT0ktwMiU) | [Ryleigh Henschen](https://unsplash.com/@ryleighhenschen) |
+| `img/w7.jpg` | [Braunes Haar mit weichen Wellen](https://unsplash.com/photos/P3RwgHQ7sr8) | [Blaire Harmon](https://unsplash.com/@bharmon) |
 | `img/og.jpg` | [Salon-Interieur](https://unsplash.com/photos/LGXN4OSQSa4) | [Benyamin Bohlouli](https://unsplash.com/@benyamin_bohlouli) |
+| `img/ba-before.jpg` | [Glattes, dunkelbraunes Haar, von hinten](https://unsplash.com/photos/u_UoMaxX7RE) | [Anastasiya Badun](https://unsplash.com/@badun) |
+| `img/ba-after.jpg` | [Schulterlanges Haar mit Balayage, von hinten](https://unsplash.com/photos/z50YODyJU4c) | [Crystal Clark](https://unsplash.com/@crystalclark252) |
 
-Formate: Galerie 940×1360 (3:4-Kacheln, 2× für Retina), `og.jpg` 1200×630. Keine Bearbeitung außer Zuschnitt und Verkleinerung.
+Formate: Galerie 940×1360 (3:4-Kacheln, 2× für Retina), Vergleichs-Slider 900×1125, `og.jpg` 1200×630.
+
+**Vorher/Nachher-Slider:** Auf Unsplash/Pexels wurden keine echten Vorher/Nachher-Paare gefunden (gleiches Modell, gleicher Blickwinkel). Der Slider zeigt deshalb zwei **verschiedene** Personen aus zwei verschiedenen Stockfotos; auf der Seite steht darunter in allen drei Sprachen „Demo-Slider mit Beispielbildern — kein echtes Vorher/Nachher“. Kein Foto ist abgedunkelt oder anderweitig verändert.
+
+In der Galerie nur fertige Ergebnisse (keine Arbeitsschritte wie Folie, Clips, Föhnen). Keine Bearbeitung außer Zuschnitt und Verkleinerung.
