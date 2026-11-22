@@ -164,6 +164,8 @@ section{padding:64px 0;border-top:1px solid var(--line)}
 .gallery img{width:100%;height:100%;object-fit:cover}
 .gallery figcaption{position:absolute;left:10px;bottom:10px;background:rgba(17,19,23,.6);color:#fff;font-size:13px;font-weight:700;padding:4px 10px;border-radius:999px}
 @media (max-width:640px){.gallery{grid-template-columns:repeat(2,1fr)}.gallery figcaption{font-size:12px;line-height:1.3;padding:3px 8px;left:8px;bottom:8px;right:auto;max-width:calc(100% - 16px)}}
+/* Sehr schmale Displays (320px): Bildunterschriften einzeilig halten */
+@media (max-width:360px){.gallery figcaption{font-size:11px;padding:3px 7px;left:6px;bottom:6px;max-width:calc(100% - 12px)}}
 
 /* Vorher/Nachher-Demo: zwei VERSCHIEDENE Stockfotos (keine echte Vorher/Nachher-Aufnahme), unbearbeitet; Hinweis darunter in allen Sprachen */
 .ba-grid{display:grid;grid-template-columns:minmax(0,560px) minmax(0,1fr);gap:24px 56px;align-items:center}
@@ -340,7 +342,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
       <figure><img src="img/w4.jpg" loading="lazy" alt="Lange, goldblonde Wellen, von hinten" data-i18n-alt="alt4"><figcaption data-i18n="g4">Goldene Wellen</figcaption></figure>
       <figure><img src="img/w3.jpg" loading="lazy" alt="Langes Haar mit Strähnen und weichen Wellen" data-i18n-alt="alt3"><figcaption data-i18n="g3">Strähnen, lang</figcaption></figure>
       <figure><img src="img/w5.jpg" loading="lazy" alt="Zwei Frauen mit welligem Blond und Balayage, von hinten" data-i18n-alt="alt5"><figcaption data-i18n="g5">Blond &amp; Balayage</figcaption></figure>
-      <figure><img src="img/w6.jpg" loading="lazy" alt="Langes, glattes, kühles Blond, von hinten" data-i18n-alt="alt6"><figcaption data-i18n="g6">Langes Kühlblond</figcaption></figure>
+      <figure><img src="img/w6.jpg" loading="lazy" alt="Langes, glattes, kühles Blond, von hinten" data-i18n-alt="alt6"><figcaption data-i18n="g6">Kühles Blond</figcaption></figure>
       <figure><img src="img/w2.jpg" loading="lazy" alt="Lange, hellblonde Wellen, von hinten" data-i18n-alt="alt2"><figcaption data-i18n="g2">Blonde Wellen</figcaption></figure>
     </div>
   </div>
@@ -458,7 +460,7 @@ const dict = {
     s1:"Мелірування, тонування, стрижка й\u00A0укладка", s1d:"бл.\u00A05\u00A0год", s2:"AirTouch і\u00A0укладка", s2d:"бл.\u00A04\u00A0год", s3:"Освітлення коренів, тонування й\u00A0укладка", s3d:"бл.\u00A03\u00A0год", s4:"Фарбування коренів", s4d:"бл.\u00A02\u00A0год", s5:"Жіноча: миття, стрижка й\u00A0укладка", s5d:"бл.\u00A01\u00A0год", s6:"Чоловіча: миття, стрижка й\u00A0стайлінг", s6d:"бл.\u00A030\u00A0хв", s7:"Доглядова процедура", s7d:"бл.\u00A020\u00A0хв", s8:"Консультація", s8d:"бл.\u00A030\u00A0хв", from:"від", free:"безкоштовно", "book-all":"Записатися", grp1:"Блонд і\u00A0колір", grp2:"Стрижка", grp3:"Догляд і\u00A0консультація",
     "price-note":"Орієнтовні ціни. Остаточна ціна залежить від довжини й\u00A0густоти\u00A0волосся.",
     "gal-e":"Роботи", "gal-h":"Холодний блонд, здорове волосся",
-    g1:"Попелясте омбре", g2:"Світлі хвилі", g3:"Мелірування", g4:"Золоті хвилі", g5:"Блонд і\u00A0балаяж", g6:"Довгий холодний блонд",
+    g1:"Попелясте омбре", g2:"Світлі хвилі", g3:"Мелірування", g4:"Золоті хвилі", g5:"Блонд і\u00A0балаяж", g6:"Холодний блонд",
     
     "ba-e":"До / після", "ba-h":"Від відрослого коріння до\u00A0балаяжу", "ba-before":"До", "ba-after":"Після", "ba-p":"Пересуньте повзунок: ліворуч відрослий блонд із\u00A0темним корінням, праворуч м'який\u00A0балаяж.", "ba-range":"Пересунути порівняння",
     "ba-note":"Демо-слайдер з\u00A0прикладами фото\u00A0— це не справжнє «до/після»",
@@ -492,7 +494,7 @@ const dict = {
     s1:"Pasemka, tonowanie, strzyżenie i\u00A0modelowanie", s1d:"ok.\u00A05\u00A0godz.", s2:"AirTouch i\u00A0modelowanie", s2d:"ok.\u00A04\u00A0godz.", s3:"Rozjaśnianie odrostu, tonowanie i\u00A0modelowanie", s3d:"ok.\u00A03\u00A0godz.", s4:"Farbowanie odrostu", s4d:"ok.\u00A02\u00A0godz.", s5:"Damskie: mycie, strzyżenie i\u00A0modelowanie", s5d:"ok.\u00A01\u00A0godz.", s6:"Męskie: mycie, strzyżenie i\u00A0stylizacja", s6d:"ok.\u00A030\u00A0min", s7:"Zabieg pielęgnacyjny", s7d:"ok.\u00A020\u00A0min", s8:"Konsultacja", s8d:"ok.\u00A030\u00A0min", from:"od", free:"bezpłatnie", "book-all":"Umów wizytę", grp1:"Blond i\u00A0koloryzacja", grp2:"Strzyżenie", grp3:"Pielęgnacja i\u00A0konsultacja",
     "price-note":"Ceny orientacyjne. Cena końcowa zależy od długości i\u00A0gęstości\u00A0włosów.",
     "gal-e":"Prace", "gal-h":"Chłodny blond, zdrowe włosy",
-    g1:"Popielate ombre", g2:"Jasne fale", g3:"Pasemka", g4:"Złote fale", g5:"Blond i\u00A0balayage", g6:"Długi chłodny blond",
+    g1:"Popielate ombre", g2:"Jasne fale", g3:"Pasemka", g4:"Złote fale", g5:"Blond i\u00A0balayage", g6:"Chłodny blond",
     
     "ba-e":"Przed / po", "ba-h":"Od odrostów do\u00A0balayage\u2019u", "ba-before":"Przed", "ba-after":"Po", "ba-p":"Przesuń suwak: po lewej odrośnięty blond z\u00A0ciemnymi odrostami, po prawej miękki\u00A0balayage.", "ba-range":"Przesuń porównanie",
     "ba-note":"Demo-slider z\u00A0przykładowymi zdjęciami\u00A0— to nie jest prawdziwe „przed/po”",
