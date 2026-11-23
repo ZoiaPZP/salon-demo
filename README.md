@@ -8,7 +8,7 @@ Schriften lokal (Bodoni Moda, Manrope — SIL Open Font License, siehe `fonts/OF
 
 ## Fotos
 
-Alle Fotos stammen von [Unsplash](https://unsplash.com) ([Unsplash-Lizenz](https://unsplash.com/license)) oder [Pexels](https://www.pexels.com) ([Pexels-Lizenz](https://www.pexels.com/license/)) — beide kostenlos, auch kommerziell, Namensnennung nicht erforderlich, hier trotzdem aufgeführt. Keine erkennbaren Gesichter. Lokal gespeichert, zugeschnitten und verkleinert; nicht verlinkt (kein Hotlinking).
+Alle Fotos stammen von [Unsplash](https://unsplash.com) ([Unsplash-Lizenz](https://unsplash.com/license)) oder [Pexels](https://www.pexels.com) ([Pexels-Lizenz](https://www.pexels.com/license/)) — beide kostenlos, auch kommerziell, Namensnennung nicht erforderlich, hier trotzdem aufgeführt. Keine erkennbaren Gesichter. Lokal gespeichert, zugeschnitten und verkleinert; nicht verlinkt (kein Hotlinking). Dieselbe Liste steht im Impressum der Website.
 
 | Datei | Foto | Fotograf/in |
 |---|---|---|

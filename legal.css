@@ -53,3 +53,9 @@ html[lang="pl"] .demo-banner [lang]:not([lang="pl"]){display:none}
 .resp{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:14px 18px;margin:20px 0}
 .resp h2{margin:0 0 6px;font-size:22px}
 .resp p{margin:0}
+.credits{list-style:none;padding:0;margin:8px 0 12px;max-width:68ch}
+.credits li{padding:8px 0;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:2px 10px;justify-content:space-between}
+.credits li:last-child{border-bottom:1px solid var(--line)}
+.credits .cr-subj{font-weight:600}
+.credits a{overflow-wrap:anywhere}
+@media (max-width:600px){.credits li{display:block}.credits .cr-subj{display:block}}
