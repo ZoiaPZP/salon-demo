@@ -3,6 +3,8 @@
 Demo-Projekt: einseitige Portfolio-Website für eine **fiktive** Friseurin in Frankfurt (DE / UA / PL).
 Alle Namen, die Adresse (Musterstraße 1, 60000 Frankfurt) und Kontakte sind erfunden; Buchungs- und Kontakt-Buttons sind Platzhalter (`#kontakt`).
 
+**Live:** https://haaratelier-demo.vercel.app
+
 Reines HTML/CSS/JS ohne Build: `index.html`, `impressum.html`, `datenschutz.html`, `legal.css`, `legal.js`, `fonts/`, `img/`.
 Schriften lokal (Bodoni Moda, Manrope — SIL Open Font License, siehe `fonts/OFL-*.txt`), keine Cookies, kein Tracking, keine externen Anfragen.
 
